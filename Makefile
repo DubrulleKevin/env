@@ -3,16 +3,7 @@ all: print_usage
 
 .PHONY: print_usage
 print_usage:
-	@echo "Hello"
-
-.PHONY: commit
-commit:
-	@git add --all
-	@git commit -a
-
-.PHONY: push
-push:
-	@git push
+	@echo "make install: Install env in current user home."
 
 .PHONY: install
 install:
