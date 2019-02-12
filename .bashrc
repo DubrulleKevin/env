@@ -6,6 +6,9 @@ fi
 # User specific aliases and functions
 export PS1="[\[\e[32m\]\u\[\e[m\]@\[\e[31m\]\h\[\e[m\]:\[\e[34m\]\W\[\e[m\]]\\$ "
 
+alias ls="ls --color"
+alias ll="ls -l"
+
 umask 0077
 
 export PATH="${HOME}/bin:${PATH}"
