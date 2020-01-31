@@ -8,6 +8,7 @@ print_usage:
 .PHONY: install
 install:
 	@ln -sfv $(PWD)/.bashrc $(HOME)/.bashrc
+	@ln -sfv $(PWD)/.bash_profile $(HOME)/.bash_profile
 	@ln -sfv $(PWD)/.vimrc $(HOME)/.vimrc
 	@ln -sfv $(PWD)/.gitconfig $(HOME)/.gitconfig
 
