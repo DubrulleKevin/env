@@ -12,5 +12,3 @@ alias vi="vim"
 umask 0077
 
 export PATH="${HOME}/bin:${PATH}"
-
-which tmux &> /dev/null && [ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
