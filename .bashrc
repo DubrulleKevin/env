@@ -11,4 +11,4 @@ alias vi="vim"
 
 umask 0077
 
-export PATH="${HOME}/bin:${PATH}"
+export PATH="${PATH}:${HOME}/bin"
