@@ -13,4 +13,4 @@ alias gw="wine .wine/drive_c/Program\ Files\ \(x86\)/GUILD\ WARS/Gw.exe &> /dev/
 umask 0077
 
 export PATH="${PATH}:${HOME}/bin"
-export LANG=C
+export LANG=en_US.UTF-8
