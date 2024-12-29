@@ -22,4 +22,6 @@ alias gw="wine ~/.wine/drive_c/Program\ Files\ \(x86\)/GUILD\ WARS/Gw.exe &> /de
 
 umask 0077
 
-printf $PATH | grep "${HOME}/bin" &> /dev/null || export PATH="${HOME}/bin:${PATH}"
+if ! printf $PATH | grep "${HOME}/bin" &> /dev/null; then
+    export PATH="${HOME}/bin:${PATH}"
+fi
