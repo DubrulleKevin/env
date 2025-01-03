@@ -15,7 +15,7 @@ fi
 export PS1="[\[\e[32m\]\u\[\e[m\]@\[\e[31m\]\h\[\e[m\]:\[\e[34m\]\W\[\e[m\]]\\$ "
 
 alias ls="ls --color"
-alias ll="ls -alrt"
+alias ll="ls -alrht"
 alias ta="tmux a || tmux"
 alias vi="vim"
 alias gw="wine ~/.wine/drive_c/Program\ Files\ \(x86\)/GUILD\ WARS/Gw.exe &> /dev/null &"
